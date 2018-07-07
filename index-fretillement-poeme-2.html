@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- En-tête de la page -->
+        <meta charset="utf-8" />
+        <title>Poèmes animés</title>
+		
+		<!-- Typos -->
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Satisfy" rel="stylesheet">
+		
+		<!-- CSS -->
+		<link rel="stylesheet" media="screen" type="text/css" href="Style.css"/>
+		<link rel="stylesheet" media="screen" type="text/css" href="Style_adaptive_main.css"/>
+		
+		<!-- Framework jquey -->
+		<link href="css/animations/animate.css" rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.lettering.js"></script>
+		<script src="js/jquery.textillate.js"></script>
+		
+		<!-- Musiques -->
+		<audio id="introduction_sound" src="audio/Son_intro_fretillement2.mp3" type="audio/mp3" preload="auto"></audio>
+		<audio id="fretillement_sound" src="audio/vent_fretillement2.mp3" type="audio/mp3"  preload="auto" ></audio>
+		<audio id="bol_generique_sound" src="audio/bol2.mp3" type="audio/mp3" preload="auto" ></audio>
+		<audio id="vent_sound" src="audio/vent_13s.mp3" type="audio/mp3" preload="auto"></audio>
+		
+		<!-- Contenu poème -->
+		<script type="text/javascript" src="poemes/poeme_fret_2.js"></script>
+		
+		<!-- View --> 
+		<script class="view_file" type="text/javascript" src="view/introduction.js"></script>
+		<script class="view_file" type="text/javascript" src="view/poeme_fretillement.js"></script>
+		
+		<!-- JS --> 
+		<script type="text/javascript" src="js/functions_main.js"></script>
+		<script class="affichage_page" type="text/javascript" src="affichage_pages.js"></script>
+		
+    </head>
+
+    <body>
+        <!-- Corps de la page -->
+		<div id="backgroundPoem">
+		
+			<!-- Icône Play pour jouer l'animation -->
+			<img id="play_animation" src="images/ico_play_big.png"></img>
+		
+			<img id="bg_bord_haut" class= "bg_bord" src="images/Fond_bord_haut.png" ></img>
+			<img id="bg_bord_bas" class= "bg_bord" src="images/Fond_bord_bas.png" ></img>
+			
+			<!-- Contenu de la page -->
+			<div id="content_page">
+			
+				<!-- Bouton play / pause -->
+				<img id="btn_pause" src="images/ico_pause_small.png"></img>
+				<img id="btn_play" src="images/ico_play_small.png"></img>
+			
+			</div><!-- end content page div -->
+			
+		</div><!-- end main div -->
+    </body>
+</html>

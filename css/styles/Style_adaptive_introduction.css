@@ -1,0 +1,207 @@
+/******************************/
+/***** Differents formats *****/
+/******************************/
+@media screen and (min-width: 1024px)
+{
+	#titre_DALP
+	{
+		font-size: 45px;
+	}
+	
+	#vous_presente
+	{
+		font-size: 30px;
+	}
+	
+	#poeme_dansant
+	{
+	    font-size: 35px;
+	}
+	
+	#poeme_dansant div
+	{
+		margin-right: 15px;
+	}
+	
+	#left_courbe, #right_courbe
+	{
+		visibility: visible;
+		max-width: 30%;
+		bottom: 30px;
+	}
+	
+	#all_flower
+	{
+		padding-top: 250px;
+	}
+}
+
+@media (min-width: 740px) and (max-width: 1024px) 
+{
+	#titre_DALP
+	{
+		font-size: 45px;
+	}
+	
+	#vous_presente
+	{
+		font-size: 30px;
+	}
+	
+	#poeme_dansant
+	{
+	    font-size: 35px;
+	}
+	
+	#poeme_dansant div
+	{
+		margin-right: 15px;
+	}
+	
+	#left_courbe, #right_courbe
+	{
+		visibility: visible;
+		max-width: 20%;
+		bottom: 40px;
+	}
+	
+	#all_flower
+	{
+		padding-top: 240px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 740px) 
+{
+	#titre_DALP
+	{
+		font-size: 42px;
+	}
+	
+	#vous_presente
+	{
+		font-size: 28px;
+	}
+	
+	#poeme_dansant
+	{
+	    font-size: 35px;
+	}
+	
+	#poeme_dansant div
+	{
+		margin-right: 15px;
+	}
+	
+	#left_courbe, #right_courbe
+	{
+		visibility: visible;
+		max-width: 15%;
+		bottom: 45px;
+	}
+	
+	#all_flower
+	{
+		padding-top: 230px;
+	}
+}
+
+
+@media  (min-width: 390px) and (max-width: 480px) 
+{
+	#titre_DALP
+	{
+		font-size: 38px;
+	}
+	
+	#vous_presente
+	{
+		font-size: 25px;
+	}
+	
+	#poeme_dansant
+	{
+	    font-size: 30px;
+	}
+	
+	#poeme_dansant div
+	{
+		margin-right: 15px;
+	}
+	
+	#left_courbe, #right_courbe
+	{
+		visibility: hidden;
+	}
+	
+	#all_flower
+	{
+		padding-top: 220px;
+	}
+}
+
+@media (min-width: 290px) and (max-width: 390px) 
+{
+	#titre_DALP
+	{
+		font-size: 30px;
+	}
+	
+	#vous_presente
+	{
+		font-size: 20px;
+	}
+	
+	#poeme_dansant
+	{
+	    font-size: 23px;
+	}
+	
+	#poeme_dansant div
+	{
+		margin-right: 10px;
+	}
+	
+	#left_courbe, #right_courbe
+	{
+		visibility: hidden;
+	}
+	
+	#all_flower
+	{
+		padding-top: 210px;
+	}
+}
+
+@media (max-width: 290px) 
+{
+	#titre_DALP
+	{
+		font-size: 25px;
+	}
+	
+	#vous_presente
+	{
+		font-size: 15px;
+	}
+	
+	#poeme_dansant
+	{
+	    font-size: 20px;
+	}
+	
+	#poeme_dansant div
+	{
+		margin-right: 8px;
+	}
+	
+	#left_courbe, #right_courbe
+	{
+		visibility: hidden;
+	}
+	
+	#all_flower
+	{
+		padding-top: 200px;
+	}
+}

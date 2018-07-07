@@ -1,0 +1,362 @@
+/***************************************/
+/****** Animation ouverture fleur ******/
+/***************************************/
+@-o-keyframes shaking
+{
+	0% {-o-transform: scale(1);}
+	5% {-o-transform: rotateZ(3deg);}
+	10% {-o-transform: rotateZ(-4deg);}
+	15% {-o-transform: rotateZ(6deg);}
+	20% {-o-transform: rotateZ(-6deg);}
+	25% {-o-transform: rotateZ(6deg);}
+	30% {-o-transform: rotateZ(-6deg);}
+	35% {-o-transform: rotateZ(5deg);}
+	40% {-o-transform: rotateZ(-5deg);}
+	45% {-o-transform: rotateZ(4deg);}
+	50% {-o-transform: rotateZ(-4deg);}
+	55% {-o-transform: rotateZ(3deg);}
+	60% {-o-transform: rotateZ(-3deg);}
+	65% {-o-transform: rotateZ(2deg);}
+	70% {-o-transform: rotateZ(-2deg);}
+	75% {-o-transform: rotateZ(1deg);}
+	80% {-o-transform: rotateZ(-1deg);}
+	85% {-o-transform: rotateZ(1deg);}
+	90% {-o-transform: rotateZ(-1deg);}
+	95% {-o-transform: rotateZ(1deg);}
+	100% {-o-transform: rotateZ(0deg);}
+}
+
+@-webkit-keyframes shaking
+{
+	0% {-webkit-transform: scale(1);}
+	5% {-webkit-transform: rotateZ(3deg);}
+	10% {-webkit-transform: rotateZ(-4deg);}
+	15% {-webkit-transform: rotateZ(6deg);}
+	20% {-webkit-transform: rotateZ(-6deg);}
+	25% {-webkit-transform: rotateZ(6deg);}
+	30% {-webkit-transform: rotateZ(-6deg);}
+	35% {-webkit-transform: rotateZ(5deg);}
+	40% {-webkit-transform: rotateZ(-5deg);}
+	45% {-webkit-transform: rotateZ(4deg);}
+	50% {-webkit-transform: rotateZ(-4deg);}
+	55% {-webkit-transform: rotateZ(3deg);}
+	60% {-webkit-transform: rotateZ(-3deg);}
+	65% {-webkit-transform: rotateZ(2deg);}
+	70% {-webkit-transform: rotateZ(-2deg);}
+	75% {-webkit-transform: rotateZ(1deg);}
+	80% {-webkit-transform: rotateZ(-1deg);}
+	85% {-webkit-transform: rotateZ(1deg);}
+	90% {-webkit-transform: rotateZ(-1deg);}
+	95% {-webkit-transform: rotateZ(1deg);}
+	100% {-webkit-transform: rotateZ(0deg);}
+}
+
+@-moz-keyframes shaking
+{
+	0% {-moz-transform: scale(1);}
+	5% {-moz-transform: rotateZ(3deg);}
+	10% {-moz-transform: rotateZ(-4deg);}
+	15% {-moz-transform: rotateZ(6deg);}
+	20% {-moz-transform: rotateZ(-6deg);}
+	25% {-moz-transform: rotateZ(6deg);}
+	30% {-moz-transform: rotateZ(-6deg);}
+	35% {-moz-transform: rotateZ(5deg);}
+	40% {-moz-transform: rotateZ(-5deg);}
+	45% {-moz-transform: rotateZ(4deg);}
+	50% {-moz-transform: rotateZ(-4deg);}
+	55% {-moz-transform: rotateZ(3deg);}
+	60% {-moz-transform: rotateZ(-3deg);}
+	65% {-moz-transform: rotateZ(2deg);}
+	70% {-moz-transform: rotateZ(-2deg);}
+	75% {-moz-transform: rotateZ(1deg);}
+	80% {-moz-transform: rotateZ(-1deg);}
+	85% {-moz-transform: rotateZ(1deg);}
+	90% {-moz-transform: rotateZ(-1deg);}
+	95% {-moz-transform: rotateZ(1deg);}
+	100% {-moz-transform: rotateZ(0deg);}
+}
+
+@keyframes shaking
+{
+	0% {-ms-transform: scale(1);}
+	5% {-ms-transform: rotateZ(3deg);}
+	10% {-ms-transform: rotateZ(-4deg);}
+	15% {-ms-transform: rotateZ(6deg);}
+	20% {-ms-transform: rotateZ(-6deg);}
+	25% {-ms-transform: rotateZ(6deg);}
+	30% {-ms-transform: rotateZ(-6deg);}
+	35% {-ms-transform: rotateZ(5deg);}
+	40% {-ms-transform: rotateZ(-5deg);}
+	45% {-ms-transform: rotateZ(4deg);}
+	50% {-ms-transform: rotateZ(-4deg);}
+	55% {-ms-transform: rotateZ(3deg);}
+	60% {-ms-transform: rotateZ(-3deg);}
+	65% {-ms-transform: rotateZ(2deg);}
+	70% {-ms-transform: rotateZ(-2deg);}
+	75% {-ms-transform: rotateZ(1deg);}
+	80% {-ms-transform: rotateZ(-1deg);}
+	85% {-ms-transform: rotateZ(1deg);}
+	90% {-ms-transform: rotateZ(-1deg);}
+	95% {-ms-transform: rotateZ(1deg);}
+	100% {-ms-transform: rotateZ(0deg);}
+}
+
+@keyframes shaking
+{
+	0% {transform: scale(1);}
+	5% {transform: rotateZ(3deg);}
+	10% {transform: rotateZ(-4deg);}
+	15% {transform: rotateZ(6deg);}
+	20% {transform: rotateZ(-6deg);}
+	25% {transform: rotateZ(6deg);}
+	30% {transform: rotateZ(-6deg);}
+	35% {transform: rotateZ(5deg);}
+	40% {transform: rotateZ(-5deg);}
+	45% {transform: rotateZ(4deg);}
+	50% {transform: rotateZ(-4deg);}
+	55% {transform: rotateZ(3deg);}
+	60% {transform: rotateZ(-3deg);}
+	65% {transform: rotateZ(2deg);}
+	70% {transform: rotateZ(-2deg);}
+	75% {transform: rotateZ(1deg);}
+	80% {transform: rotateZ(-1deg);}
+	85% {transform: rotateZ(1deg);}
+	90% {transform: rotateZ(-1deg);}
+	95% {transform: rotateZ(1deg);}
+	100%  {transform: rotateZ(0deg);}
+}
+
+
+
+@-o-keyframes affich_elem
+{
+    0% {opacity:0;}
+    100%  {opacity: 1;}
+}
+
+@-webkit-keyframes affich_elem
+{
+    0% {opacity:0;}
+    100%  {opacity: 1;}
+}
+
+@-moz-keyframes affich_elem
+{
+    0% {opacity:0;}
+    100%  {opacity: 1;}
+}
+
+@keyframes affich_elem
+{
+    0% {opacity:0;}
+    100%  {opacity: 1;}
+}
+
+
+
+@-o-keyframes affich_elem_clign
+{
+    0% {opacity:0.5;}
+	50% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-webkit-keyframes affich_elem_clign
+{
+    0% {opacity:0.5;}
+	50% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-moz-keyframes affich_elem_clign
+{
+    0% {opacity:0.5;}
+	50% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@keyframes affich_elem_clign
+{
+    0% {opacity:0.5;}
+	50% {opacity:0;}
+	100% {opacity:1;}
+}
+
+
+
+@-o-keyframes shake {
+  10%, 90% {-o-transform: rotateZ(1deg);}
+  
+  20%, 80% {-o-transform: rotateZ(-2deg);}
+
+  35%, 55%, 75% {-o-transform: rotateZ(-6deg);}
+  
+  30%, 50%, 70% {-o-transform: rotateZ(6deg);}
+
+  40%, 60% {-o-transform: rotateZ(-3deg);}
+}
+
+@-webkit-keyframes shake {
+  10%, 90% {-webkit-transform: rotateZ(1deg);}
+  
+  20%, 80% {-webkit-transform: rotateZ(-2deg);}
+
+  35%, 55%, 75% {-webkit-transform: rotateZ(-6deg);}
+  
+  30%, 50%, 70% {-webkit-transform: rotateZ(6deg);}
+
+  40%, 60% {-webkit-transform: rotateZ(-3deg);}
+}
+
+@-moz-keyframes shake {
+  10%, 90% {-moz-transform: rotateZ(1deg);}
+  
+  20%, 80% {-moz-transform: rotateZ(-2deg);}
+  
+  35%, 55%, 75% {-moz-transform: rotateZ(-6deg);}
+
+  30%, 50%, 70% {-moz-transform: rotateZ(6deg);}
+
+  40%, 60% {-moz-transform: rotateZ(-3deg);}
+}
+
+@keyframes shake {
+  10%, 90% {-ms-transform: rotateZ(1deg);}
+  
+  20%, 80% {-ms-transform: rotateZ(-2deg);}
+
+  35%, 55%, 75% {-ms-transform: rotateZ(-6deg);}
+  
+  30%, 50%, 70% {-ms-transform: rotateZ(6deg);}
+
+  40%, 60% {-ms-transform: rotateZ(-3deg);}
+}
+
+@keyframes shake {
+  10%, 90% {transform: rotateZ(1deg);}
+  
+  20%, 80% {transform: rotateZ(-2deg);}
+
+  35%, 55%, 75% {transform: rotateZ(-6deg);}
+  
+  30%, 50%, 70% {transform: rotateZ(6deg);}
+
+  40%, 60% {transform: rotateZ(-3deg);}
+}
+
+
+/******************************/
+/* Application des animations */
+/******************************/
+#flower_1
+{
+	-o-animation-name: shaking, shaking, shaking;
+    -o-animation-duration: 1s, 1s, 1s;
+    -o-animation-delay: 1s, 3s, 11s;
+	-o-animation-fill-mode: forwards;
+	
+	-webkit-animation-name: shaking, shaking, shaking;
+    -webkit-animation-duration: 1s, 1s, 1s;
+    -webkit-animation-delay: 1s, 3s, 11s;
+	-webkit-animation-fill-mode: forwards;
+	
+	-moz-animation-name: shaking, shaking, shaking;
+    -moz-animation-duration: 1s, 1s, 1s;
+    -moz-animation-delay: 1s, 3s, 11s;
+	-moz-animation-fill-mode: forwards;
+	
+	animation-name: shaking, shaking, shaking;
+    animation-duration: 1s, 1s, 1s;
+    animation-delay: 1s, 3s, 11s;
+	animation-fill-mode: forwards;
+}
+
+#flower_1:hover
+{
+	cursor: pointer;
+	opacity: 1;
+	-o-animation: shake 0.82s cubic-bezier(.21,.40,.50,0.21) both;
+	-webkit-animation: shake 0.82s cubic-bezier(.21,.40,.50,0.21) both;
+	-moz-animation: shake 0.82s cubic-bezier(.21,.40,.50,0.21) both;
+	animation: shake 0.82s cubic-bezier(.21,.40,.50,0.21) both;
+	
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+}
+
+#nom_poeme
+{
+	-o-animation-name: affich_elem;
+    -o-animation-duration: 2s;
+    -o-animation-delay: 5s;
+	-o-animation-fill-mode: forwards;
+	
+	-webkit-animation-name: affich_elem;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 5s;
+	-webkit-animation-fill-mode: forwards;
+	
+	-moz-animation-name: affich_elem;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 5s;
+	-moz-animation-fill-mode: forwards;
+	
+	animation-name: affich_elem;
+    animation-duration: 2s;
+    animation-delay: 5s;
+	animation-fill-mode: forwards;
+}
+
+/*#msg_interaction_1
+{
+	-o-animation-name: affich_elem_clign;
+    -o-animation-duration: 2s;
+    -o-animation-delay: 14s;
+	-o-animation-fill-mode: forwards;
+	-o-animation-iteration-count: infinite;
+	
+	-webkit-animation-name: affich_elem_clign;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 14s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: infinite;
+	
+	-moz-animation-name: affich_elem_clign;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 14s;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-iteration-count: infinite;
+	
+	animation-name: affich_elem_clign;
+    animation-duration: 2s;
+    animation-delay: 14s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+#msg_interaction_2
+{
+	-o-animation-name: affich_elem_clign;
+    -o-animation-duration: 2s;
+	-o-animation-fill-mode: forwards;
+	-o-animation-iteration-count: infinite;
+	
+	-webkit-animation-name: affich_elem_clign;
+    -webkit-animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: infinite;
+	
+	-moz-animation-name: affich_elem_clign;
+    -moz-animation-duration: 2s;
+	-moz-animation-fill-mode: forwards;
+	-moz-animation-iteration-count: infinite;
+	
+	animation-name: affich_elem_clign;
+    animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}*/

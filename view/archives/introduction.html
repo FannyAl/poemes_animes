@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- En-tête de la page -->
+        <meta charset="utf-8" />
+        <title>Dialogue avec le printemps</title>
+		
+		<!-- Typos -->
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Satisfy" rel="stylesheet">
+		
+		<!-- CSS -->
+		<link rel="stylesheet" media="screen" type="text/css" title="style_intro" href="Style.css"/>
+		<link rel="stylesheet" media="screen" type="text/css" title="style_intro" href="anim_intro.css"/>
+		
+		<!-- Framework jquey -->
+		<link href="css/animate.css" rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.lettering.js"></script>
+		<script src="js/jquery.textillate.js"></script>
+		
+		<!-- JS --> 
+		<script type="text/javascript" src="js/functions_textillate.js"></script>
+		
+		<!-- Musique -->
+		<audio controls="controls" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 1500)">
+			<!--<source src="audio/bol.mp3" type="audio/mp3" />
+			<source src="audio/bol2.mp3" type="audio/mp3" />
+			<source src="audio/crayon.mp3" type="audio/mp3" />-->
+			<source src="audio/mix_3.mp3" type="audio/mp3" />
+		</audio>
+
+		
+    </head>
+
+    <body>
+        <!-- Corps de la page -->
+		<div id="backgroundPoem">
+		
+			<img id="bg_bord_haut" class= "bg_bord"src="images/Fond_bord_haut.png" ></img>
+			<img id="bg_bord_bas" class= "bg_bord"src="images/Fond_bord_bas.png" ></img>
+			
+			<div id="all_flower">
+			
+				<div class="flower_spine"></div>
+				
+				<div id="flower_5" class="flower">
+					<div class="flower_part1"></div>
+					<div class="flower_part2"></div>
+				</div>
+				
+				<div id="flower_4" class="flower">
+					<div class="flower_part1"></div>
+					<div class="flower_part2"></div>
+				</div>
+				
+				<div id="flower_3" class="flower">
+					<div class="flower_part1"></div>
+					<div class="flower_part2"></div>
+				</div>
+				
+				<div id="flower_2" class="flower">
+					<div class="flower_part1"></div>
+					<div class="flower_part2"></div>
+				</div>
+				
+				<div id="flower_1" class="flower">
+					<div class="flower_part1"></div>
+					<div class="flower_part2"></div>
+				</div>
+			
+			</div>
+			
+			<h1 id="title_dialogue">Dialogue avec le Printemps</h1>
+			
+			<h3 id="vous_presente">vous présente</h3>
+			
+			<div id="poeme_dansant">
+				<img id="left_courbe" class= "courbes" src="images/left_courbe.png" ></img>
+				<img id="right_courbe" class= "courbes" src="images/right_courbe.png" ></img>
+			
+				<div id="votre" class="anim_poeme_dansant" data-in-effect="rollIn">
+					<p>ses</p>
+				</div>
+			
+				<div id="poeme" class="anim_poeme_dansant" data-in-effect="rollIn">
+					<p>poèmes</p>
+				</div>
+				
+				<div id="dansant" class="anim_poeme_dansant" data-in-effect="rollIn">
+					<p>animés</p>
+				</div>
+			</div>
+
+		</div>
+		
+    </body>
+</html>

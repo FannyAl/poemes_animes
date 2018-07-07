@@ -1,0 +1,231 @@
+/******************************/
+/***** Differents formats *****/
+/******************************/
+@media screen and (min-width: 1024px)
+{
+	#top_affiche
+	{
+		height: 40%;
+	}
+	
+	#bottom_affiche, #div_generique
+	{
+		height: 35%
+	}
+	
+	#nom_poeme
+	{
+		font-size: 45px;
+	}
+	
+	#nom_saison, .msg_interaction, #nom_animation, #nom_texte
+	{
+		font-size: 20px;
+	}
+	
+	#text_animation, #text_site_inernet
+	{
+		font-size: 16px;
+	}
+	
+	#liste_icones
+	{
+		padding-top: 6%;
+	}
+	
+	#contenu_poeme
+	{
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 740px) and (max-width: 1024px) 
+{
+	#top_affiche
+	{
+		height: 40%;
+	}
+	
+	#bottom_affiche, #div_generique
+	{
+		height: 32%
+	}
+	
+	#nom_poeme
+	{
+		font-size: 40px;
+	}
+	
+	#nom_saison, .msg_interaction, #nom_animation, #nom_texte
+	{
+		font-size: 18px;
+	}
+	
+	#text_animation, #text_site_inernet
+	{
+		font-size: 16px;
+	}
+	
+	#liste_icones
+	{
+		padding-top: 8%;
+	}
+	
+	#contenu_poeme
+	{
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 740px) 
+{
+	#top_affiche
+	{
+		height: 38%;
+	}
+	
+	#bottom_affiche, #div_generique
+	{
+		height: 34%
+	}
+	
+	#nom_poeme
+	{
+		font-size: 35px;
+	}
+	
+	#nom_saison, .msg_interaction, #nom_animation, #nom_texte
+	{
+		font-size: 15px;
+	}
+	
+	#text_animation, #text_site_inernet
+	{
+		font-size: 12px;
+	}
+	
+	#liste_icones
+	{
+		padding-top: 10%;
+	}
+	
+	#contenu_poeme
+	{
+		font-size: 16px;
+	}
+}
+
+
+@media  (min-width: 390px) and (max-width: 480px) 
+{
+	#top_affiche
+	{
+		height: 38%;
+	}
+	
+	#bottom_affiche, #div_generique
+	{
+		height: 32%
+	}
+	
+	#nom_poeme
+	{
+		font-size: 23px;
+	}
+	
+	#nom_saison, .msg_interaction, #nom_animation, #nom_texte
+	{
+		font-size: 12px;
+	}
+	
+	#text_animation, #text_site_inernet
+	{
+		font-size: 10px;
+	}
+	
+	#liste_icones
+	{
+		padding-top: 12%;
+	}
+	
+	#contenu_poeme
+	{
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 290px) and (max-width: 390px) 
+{
+	#top_affiche
+	{
+		height: 38%;
+	}
+	
+	#bottom_affiche, #div_generique
+	{
+		height: 32%
+	}
+	
+	#nom_poeme
+	{
+		font-size: 23px;
+	}
+	
+	#nom_saison, .msg_interaction, #nom_animation, #nom_texte
+	{
+		font-size: 12px;
+	}
+	
+	#text_animation, #text_site_inernet
+	{
+		font-size: 10px;
+	}
+	
+	#liste_icones
+	{
+		padding-top: 14%;
+	}
+	
+	#contenu_poeme
+	{
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 290px) 
+{
+	#top_affiche
+	{
+		height: 38%;
+	}
+	
+	#bottom_affiche, #div_generique
+	{
+		height: 32%
+	}
+	
+	#nom_poeme
+	{
+		font-size: 23px;
+	}
+	
+	#nom_saison, .msg_interaction, #nom_animation, #nom_texte
+	{
+		font-size: 12px;
+	}
+	
+	#text_animation, #text_site_inernet
+	{
+		font-size: 10px;
+	}
+	
+	#liste_icones
+	{
+		padding-top: 15%;
+	}
+	
+	#contenu_poeme
+	{
+		font-size: 12px;
+	}
+}

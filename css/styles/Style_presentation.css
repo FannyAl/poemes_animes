@@ -1,0 +1,257 @@
+/***************************************/
+/************ Style fenêtre ************/
+/***************************************/
+#bottom_affiche, #div_generique
+{
+	width: 96%;
+	height: 37%;
+	margin: 2%;
+	margin-top: 0px;
+	
+	display: block;
+	position: relative;
+}
+
+#bottom_affiche, #div_generique
+{
+	display: none;
+}
+
+
+#img_dalp
+{
+	width: 60px;
+    height: auto;
+    text-align: center;
+	margin-bottom: 40px;
+	opacity: 0.4; 
+}
+
+
+/***************************************/
+/***************** Fleur ***************/
+/***************************************/
+#flower_1 , #flower_2, .flower_spine
+{
+	opacity: 1;
+}
+
+#flower_2
+{
+	z-index: 3;
+}
+
+#flower_1
+{
+	z-index: 5;
+}
+
+
+/***************************************/
+/*********** Contenus textes ***********/
+/***************************************/
+#nom_poeme
+{
+	font-family: 'Nanum Gothic', Geneva, sans-serif;
+	font-size: 45px;
+	font-weight: light;
+	color: #fff;
+	
+	text-align: center;
+	text-transform: uppercase;
+	
+	position: absolute;
+	width: 90%;
+    padding: 2% 5%;
+	margin: 0 auto;
+	bottom: 20%;
+	
+	/*********/
+	opacity: 0;
+}
+
+#nom_saison, #msg_interaction_1, #nom_animation, #nom_texte, #text_animation, #text_site_inernet
+{
+	font-family: 'Nanum Gothic', Geneva, sans-serif;
+	font-size: 20px;
+	font-weight: light;
+	
+	text-align: center;
+	
+	color: #736A64;
+	
+	position: absolute;
+	width: 90%;
+    padding: 5%;
+	margin: 0 auto;
+	
+	/*********/
+	visibility: hidden;
+}
+
+#msg_interaction_2
+{
+	display: none;
+    position: absolute;
+	
+    width: 100%;
+	bottom: 5%;
+	
+    text-align: center;
+}
+
+#msg_interaction_1, #msg_interaction_2
+{
+	color: #CCCCCC;
+	/*visibility: visible;*/
+	visibility: hidden;
+	opacity: 0;
+}
+
+
+#contenu_poeme
+{
+	font-family: 'Nanum Gothic', Geneva, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #999999;
+	
+	position: absolute;
+	width: 100%;
+	
+	text-align: center;
+	text-shadow: 0px 0px 15px #fff;
+	line-height: 150%;
+   
+	position: absolute;
+	width: 90%;
+    padding: 0% 5%;
+	margin: 0 auto;
+	
+	/*********/
+	visibility: visible;
+}
+
+#contenu_poeme p
+{
+	display: none;
+}
+
+.currentStrophe
+{
+	display: block;
+}
+
+.lastStrophe 
+{
+	color: #736A64;
+}
+
+
+/***************************************/
+/************** Générique **************/
+/***************************************/
+#liste_icones
+{
+	width: 100%;
+    text-align: center;
+	padding: 0px;
+	padding-top: 6%;
+}
+
+#liste_icones li
+{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	
+	position: relative;
+	margin-right: 10px;
+	padding: 5px;
+	
+	background-color: #736A64;
+}
+
+#liste_icones li:hover
+{
+	background-color: #999999;
+	cursor: pointer;
+}
+
+#nom_animation, #nom_texte, #text_animation, #text_site_inernet
+{
+	padding: 0px;
+    width: 100%;
+	line-height: 150%;
+	
+	visibility: visible;
+}
+
+.img_icone
+{
+	width: 25px;
+}
+
+.legende_icone
+{
+	font-family: 'Nanum Gothic', Geneva, sans-serif;
+	font-size: 7px;
+	text-transform: uppercase;
+	color: #fff;
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	bottom: 4px;
+	width: 100%;
+	left: 0px;
+	line-height: 100%;
+}
+
+#text_site_inernet
+{
+	color: #999999;
+	cursor: pointer;
+}
+
+#text_site_inernet:hover
+{
+	color: #fff;
+}
+
+#div_logo_generique
+{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#logo_generique
+{
+	width: 70px;
+}
+
+#generique_integrale
+{
+	visibility: hidden;
+	margin-top: 80px;
+}
+
+#generique_integrale h3,#generique_integrale a
+{
+	visibility: hidden;
+	left: 0px;
+}
+
+.strophe span
+{
+	display: block;
+	margin-bottom: 8px;
+}
+
+.AnimSpan span
+{
+	display: inline;
+	font-size: 24px;
+	color: #999999;
+	/*color: #736A64;*/
+}

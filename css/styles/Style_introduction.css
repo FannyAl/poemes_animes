@@ -1,0 +1,128 @@
+/***************************************/
+/************ Style fenêtre ************/
+/***************************************/
+#all_flower
+{
+	height: 40%;
+}
+
+.flower
+{
+	z-index: 50;
+}
+
+
+/***************************************/
+/***** Couleurs pétales de fleurs ******/
+/***************************************/
+#flower_0 .flower_part1, #flower_0 .flower_part2
+{
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+	z-index: 5;
+}
+
+#flower_0 .flower_spine
+{
+	margin-top: -30px;
+}
+
+
+/***************************************/
+/******** Affichage des titres *********/
+/***************************************/
+#titre_DALP
+{
+	position: absolute;
+	width: 100%;
+	bottom: 200px;
+	left: 0px;
+	
+	font-size: 45px;
+	font-weight: light;
+	color: #736A64;
+	
+	text-align: center;
+	opacity: 0;
+}
+
+#vous_presente
+{
+	position: absolute;
+	width: 100%;
+	bottom: 140px;
+	left: 0px;
+	
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+	font-weight: light;
+	color: #736A64;
+	
+	text-align: center;
+	opacity: 0;
+}
+
+#poeme_dansant
+{
+	font-size: 35px;
+	font-weight: bold;
+	color: #fff;
+	
+	position: absolute;
+	width: 100%;
+	
+	text-align: center;
+	text-shadow: 0px 0px 15px #C6C6C6;
+	text-transform: uppercase;
+    bottom: 50px;
+}
+
+#poeme_dansant div
+{
+	display: inline-block;
+	opacity: 0;
+}
+
+
+#left_courbe
+{
+	position: absolute;
+	left: -5px;
+	bottom: 30px;
+	width: 340px;
+	max-width: 30%;
+}
+
+#right_courbe
+{
+	position: absolute;
+	right: -5px;
+	bottom: 35px;
+	width: 340px;
+	max-width: 30%;
+}
+
+.courbes
+{
+	opacity: 0;
+}
+
+#ses_PoemesA
+{
+	left: 32%;
+}
+
+#poemes_PoemesA
+{
+	left: 40%;
+}
+
+#animes_PoemesA
+{
+	left: 55%;
+}
+
+#poeme_dansant div
+{
+	margin-right: 15px;
+}
